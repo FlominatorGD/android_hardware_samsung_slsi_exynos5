@@ -1,0 +1,1 @@
+# android_hardware_samsung_slsi_exynos5 for universal7870
