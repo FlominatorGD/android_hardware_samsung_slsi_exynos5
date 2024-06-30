@@ -20,6 +20,7 @@ include $(CLEAR_VARS)
 MOBICORE_PATH := hardware/samsung_slsi/$(TARGET_SOC)/mobicore
 
 LOCAL_MODULE := keystore.exynos5
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_VENDOR_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_SRC_FILES := keymaster_mobicore.cpp tlcTeeKeymaster_if.c
