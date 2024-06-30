@@ -33,6 +33,8 @@ LOCAL_C_INCLUDES := \
         system/core/libsystem/include
 LOCAL_C_FLAGS = -fvisibility=hidden -Wall -Werror
 LOCAL_SHARED_LIBRARIES := libcrypto liblog libMcClient libnativehelper
+LOCAL_HEADER_LIBRARIES := libcutils_headers
+LOCAL_HEADER_LIBRARIES := libhardware_headers
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 
